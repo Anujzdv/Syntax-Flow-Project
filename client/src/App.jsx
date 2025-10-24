@@ -11,9 +11,9 @@ import NotFound from './pages/NotFound';
 export default function App() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-brand">
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to="/">SyntaxFlow</NavLink>
+          <NavLink className="navbar-brand" to="/">CricketConnect</NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -24,8 +24,8 @@ export default function App() {
               <li className="nav-item"><NavLink className="nav-link" to="/leaderboard">Leaderboard</NavLink></li>
             </ul>
             <ul className="navbar-nav">
-              <li className="nav-item"><NavLink className="nav-link" to="/signup">Signup</NavLink></li>
-              <li className="nav-item"><NavLink className="nav-link" to="/login">Login</NavLink></li>
+              <li className="nav-item"><NavLink className="nav-link" to="/signup">Sign up</NavLink></li>
+              <li className="nav-item"><NavLink className="nav-link" to="/login">Log in</NavLink></li>
             </ul>
           </div>
         </div>
